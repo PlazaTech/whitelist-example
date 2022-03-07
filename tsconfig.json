@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./scripts",
+    "./test",
+    "./test/utils",
+    "./deploy",
+    "src/utils/merkleHelper.ts"
+  ],
+  "files": ["./hardhat.config.ts"]
+}
